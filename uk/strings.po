@@ -407,15 +407,15 @@ msgstr "Сторонній сервіс, який ми використовує�
 
 #. i18n: keyword: LinkDiscordTitle
 msgid "Link Discord Account"
-msgstr ""
+msgstr "Прив'язати обліковий запис Discord"
 
 #. i18n: keyword: LinkDiscordDescription
 msgid "This will link your Discord Account to your Klei Account."
-msgstr ""
+msgstr "Це зв’яже ваш обліковий запис Discord з вашим обліковим записом Klei."
 
 #. i18n: keyword: UnlinkDiscordTitle
 msgid "Unlink Discord Account"
-msgstr ""
+msgstr "Відв'язати обліковий запис Discord"
 
 #. i18n: keyword: MergeAccountTitle
 msgid "Merge An Account"
@@ -883,19 +883,19 @@ msgstr "Рідкість"
 
 #. i18n: keyword: RollbackDialogConfirmation
 msgid "Are you sure you want to rollback this transaction?"
-msgstr ""
+msgstr "Ви впевнені, що хочете відкати цю транзакцію?"
 
 #. i18n: keyword: RollbackDialogNotEnoughCurrency
 msgid "You don't have enough currency for this rollback! You need another"
-msgstr ""
+msgstr "У вас недостатньо валюти для цього відкату! Вам потрібен інший"
 
 #. i18n: keyword: RollbackGain
 msgid "You will gain"
-msgstr ""
+msgstr "Ви виграєте"
 
 #. i18n: keyword: RollbackLose
 msgid "You will lose"
-msgstr ""
+msgstr "Ви програєте"
 
 #. i18n: keyword: DownloadSettings
 msgid "Download Settings"
@@ -1103,7 +1103,7 @@ msgstr "Привіт! Схоже, у вас є ключ предмета або 
 
 #. i18n: keyword: GiftRedemptionGoToValidation
 msgid "If you would like to check the validity of your code without redeeming it, you can go to the <a href='/account/validate-gift'>gift code validation page</a>."
-msgstr ""
+msgstr "Якщо ви хочете перевірити дійсність свого коду, не викупивши його, перейдіть на <a href='/account/validate-gift'> сторінку для перевірки коду </a>. "
 
 #. i18n: keyword: GiftRedemptionCodeLabel
 msgid "Enter Your Code"
@@ -1123,35 +1123,35 @@ msgstr "Натисніть тут, щоб погасити ще один под�
 
 #. i18n: keyword: ValidateGiftTitle
 msgid "Gift Code Validation"
-msgstr ""
+msgstr "Перевірка подарункового коду"
 
 #. i18n: keyword: ValidateGiftDescription
 msgid "Use this page to check if your gift code is valid and has not been redeemed yet. This will NOT redeem the gift code. "
-msgstr ""
+msgstr "Використовуйте цю сторінку, щоб перевірити, чи ваш подарунковий код дійсний і чи його ще не використано. Це НЕ активує ваш подарунковий код"
 
 #. i18n: keyword: ValidateGiftCodeLabel
 msgid "Enter Your Code"
-msgstr ""
+msgstr "Введіть ваш код"
 
 #. i18n: keyword: ValidateGiftSubmitButton
 msgid "Validate Code"
-msgstr ""
+msgstr "Підтвердити код"
 
 #. i18n: keyword: ValidateGiftAgainButton
 msgid "Click here to validate another code"
-msgstr ""
+msgstr "Натисніть тут, щоб перевірити інший код"
 
 #. i18n: keyword: ValidateGiftInvalid
 msgid "<b>\"{{ .Data.Code }}\"</b> is not a valid code."
-msgstr ""
+msgstr "<b>\"{{ .Data.Code }}\"</b> - не дійсний код."
 
 #. i18n: keyword: ValidateGiftRedeemed
 msgid "<b>\"{{ .Data.Code }}\"</b> has already been redeemed."
-msgstr ""
+msgstr "<b>\"{{ .Data.Code }}\"</b> - вже активовано."
 
 #. i18n: keyword: ValidateGiftValid
 msgid "<b>\"{{ .Data.Code }}\"</b> is a valid code and has not been redeemed yet."
-msgstr ""
+msgstr "<b>\"{{ .Data.Code }}\"</b> - є дійсним і ще не використаним кодом."
 
 #. i18n: keyword: E_INVALID_CODE
 msgid "Item key or gift code is invalid."
@@ -1343,15 +1343,15 @@ msgstr "Помилка з'єднання зі Steam"
 
 #. i18n: keyword: RevertAccountLimboTitle
 msgid "Account marked for deletion"
-msgstr ""
+msgstr "Обліковий запис позначено для видалення."
 
 #. i18n: keyword: RevertAccountLimboDescription
 msgid "Your account with User ID <b>{{ .Data.KU }}</b> has been marked for deletion and will be permanently unrecoverable within 30 days.<br>If you would like to recover your account, please press the \"Recover Account\" button."
-msgstr ""
-
+msgstr "Ваш обліковий запис з ідентифікатором користувача <b>{{ .Data.KU }}</b> позначено для видалення назавжди і його неможливо буде відновити протягом 30 днів. Якщо ви хочете відновити свій обліковий запис, натисніть \"Recover Account\" button."
+ 
 #. i18n: keyword: RevertAccountLimboConfirm
 msgid "Recover Account"
-msgstr ""
+msgstr "Відновити обліковий запис"
 
 #. i18n: keyword: E_JSON_BAD_EOF
 msgid "The server was unable to read the data you submitted. Please try again later."
@@ -1795,11 +1795,11 @@ msgstr "На жаль, ця нагорода більше не активна. �
 
 #. i18n: keyword: E_DOUBLE_ROLLBACK
 msgid "This transaction has already been rolled back."
-msgstr ""
+msgstr "Цю транзакцію вже відмінено."
 
 #. i18n: keyword: E_UNSUPPORTED_FOR_ROLLBACK
 msgid "This transaction cannot be rolled back."
-msgstr ""
+msgstr "Цю транзакцію неможливо відмінити."
 
 #. i18n: keyword: UserTransactions
 msgid "User Transactions"
@@ -1827,15 +1827,15 @@ msgstr "Транзакцій немає."
 
 #. i18n: keyword: TransactionRollback
 msgid "Rollback"
-msgstr ""
+msgstr "Відмінити"
 
 #. i18n: keyword: GiftingEventWeek
 msgid "Week"
-msgstr ""
+msgstr "Тиждень"
 
 #. i18n: keyword: GiftingEventGift
 msgid "Gift"
-msgstr ""
+msgstr "Подарунок"
 
 #. i18n: keyword: CurrentBalanceForSpools
 msgid "Current Spools Balance"
@@ -1959,11 +1959,11 @@ msgstr ""
 
 #. i18n: keyword: TXN_SUPPORT_ISSUED_CURRENCY
 msgid "Klei Support Issued Currency"
-msgstr ""
+msgstr "Валюта підтримки Klei"
 
 #. i18n: keyword: TXN_SUPPORT_ISSUED_ITEM
 msgid "Klei Support Issued Item"
-msgstr ""
+msgstr "Елемент підтримки Klei"
 
 #. i18n: keyword: Marketable
 msgid "Marketable"
@@ -1995,7 +1995,7 @@ msgstr "Вибраний файл завеликий. Будь ласка, зм�
 
 #. i18n: keyword: E_FILE_SIZE_ZERO
 msgid "The file you selected has a size of zero bytes. Please try again with a different file."
-msgstr ""
+msgstr "Вибраний файл має розмір нуль байтів. Спробуйте ще раз з іншим файлом."
 
 #. i18n: keyword: E_DID_NOT_AGREE_TO_HALLOWEEN_RULES
 msgid "Unfortunately, you can not participate in the Halloween event if you do not agree with the event rules."
@@ -2015,11 +2015,11 @@ msgstr "Дякуємо за подання заявки та повідомле�
 
 #. i18n: keyword: E_HALLOWEEN_USER_BANNED
 msgid "Your previous submission has been banned and you are not allowed to make another submission."
-msgstr ""
+msgstr "Ваше попереднє подання було заблоковано, і ви не можете зробити інше."
 
 #. i18n: keyword: HalloweenConfirmResubmission
 msgid "You have already submitted an image. Are you sure you want to overwrite your previous submission?"
-msgstr ""
+msgstr "Ви вже надіслали зображення. Ви впевнені, що хочете перезаписати попереднє надіслане?"
 
 #. i18n: keyword: ReviewEULATitle
 msgid "Review End-User License Agreement and Terms of Service"
